@@ -1,0 +1,12 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /ss
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
